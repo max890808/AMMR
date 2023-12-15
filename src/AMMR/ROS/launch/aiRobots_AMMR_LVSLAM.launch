@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<launch>
+    <arg name="voc_path" default="$(find lv_slam)/vocabulary/ORBvoc.txt" />
+    <arg name="cfg_file" default="$(find airobots_ammr)ROS/cfg/aiRobots_AMMR/aiRobots_AMMR.yaml" />
+    <arg name="rviz_file" default="$(find airobots_ammr)/ROS/rviz/aiRobots_AMMR.rviz" />
+
+    <node name="slam" pkg="lv_slam" type="SLAM_node" args="$(arg voc_path) $(arg cfg_file)" output="screen"></node>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rviz_file)" />
+</launch>
+
+

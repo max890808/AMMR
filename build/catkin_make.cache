@@ -1,0 +1,2 @@
+AMMR:LaserTools
+-DCATKIN_DEVEL_PREFIX=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel -DCMAKE_INSTALL_PREFIX=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/install -G Unix Makefiles

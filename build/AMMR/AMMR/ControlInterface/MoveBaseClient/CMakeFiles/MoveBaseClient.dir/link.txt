@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++11 -pthread -g  -shared -Wl,-soname,libMoveBaseClient.so -o /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libMoveBaseClient.so CMakeFiles/MoveBaseClient.dir/MoveBaseClient.cpp.o 

@@ -1,0 +1,25 @@
+<launch>
+
+    <!-- Launch Mapper -->
+    <arg name="ip_address" value="192.168.11.1" />
+    <include file="$(find slamware_ros_sdk)/launch/slamware_ros_sdk_server_node.launch" >
+        <arg name="move_base_goal_topic" value="disable"/>
+        <arg name="ip_address" value= "$(arg ip_address)" />
+    </include>
+
+    <!-- Launch D435i -->
+    <include file="$(find realsense2_camera)/launch/rs_rgbd.launch" >
+        <arg name="depth_width" value="640" />
+        <arg name="depth_height" value="480" />
+        <arg name="enable_depth" value="true" />
+
+        <arg name="color_width" value="640" />
+        <arg name="color_height" value="480" />
+        <arg name="enable_color" value="true" />
+
+        <arg name="depth_fps" value="15"/>
+        <arg name="color_fps" value="15"/>
+
+        <arg name="depth_registered_processing" value="false"/>
+    </include>
+</launch>

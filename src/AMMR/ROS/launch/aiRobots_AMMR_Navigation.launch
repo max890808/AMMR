@@ -1,0 +1,51 @@
+<launch>
+
+    <arg name="laser_topic" default="/scan_merge"/>
+    <arg name="laser_frame" default="laser"/>
+    <arg name="base_frame" default="base"/>
+    <arg name="odom_frame" default="odom"/>
+    <arg name="map_frame" default="map"/>
+
+    <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+
+        <!-- Cost Map Config -->
+        <rosparam file="$(find airobots_ammr)/ROS/cfg/aiRobots_AMMR/costmap_common_params.yaml" command="load" ns="global_costmap" />
+        <rosparam file="$(find airobots_ammr)/ROS/cfg/aiRobots_AMMR/costmap_common_params.yaml" command="load" ns="local_costmap" />
+        <rosparam file="$(find airobots_ammr)/ROS/cfg/aiRobots_AMMR/local_costmap_params.yaml" command="load" />
+        <rosparam file="$(find airobots_ammr)/ROS/cfg/aiRobots_AMMR/global_costmap_params.yaml" command="load" />
+
+        <!-- Set up Frame -->
+        <rosparam ns="global_costmap" subst_value="True">
+            global_frame: $(arg map_frame)
+            robot_base_frame: $(arg base_frame)
+            obstacle_layer/laser_scan_sensor/topic: $(arg laser_topic)
+        </rosparam>
+
+        <rosparam ns="local_costmap" subst_value="True">
+            global_frame: $(arg map_frame)
+            robot_base_frame: $(arg base_frame)
+            obstacle_layer/laser_scan_sensor/topic: $(arg laser_topic)
+        </rosparam>
+        
+        <!-- Planner -->
+        <rosparam file="$(find airobots_ammr)/ROS/cfg/aiRobots_AMMR/teb_local_planner_params.yaml" command="load"/>
+        <!-- <rosparam file="$(find airobots_ammr)/ROS/cfg/aiRobots_AMMR/dwa_local_planner_params.yaml" command="load"/> /-->
+        <!-- <rosparam file="$(find airobots_ammr)/ROS/cfg/aiRobots_AMMR/base_local_planner_params.yaml" command="load"/> /-->
+        <!-- <rosparam file="$(find airobots_ammr)/ROS/cfg/aiRobots_AMMR/teb_local_planner_params.yaml" command="load"/> /-->
+
+        <param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS" />
+        <!-- <param name="base_local_planner" value="dwa_local_planner/DWAPlannerROS" /> /-->
+        <!-- <param name="base_local_planner" value="base_local_planner/TrajectoryPlannerROS" /> /-->
+        <!-- <param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS" /> /-->
+
+        <param name="base_global_planner" value="global_planner/GlobalPlanner" />
+        <param name="recovery_behavior_enabled" value="false" />
+        <param name="clearing_rotation_allowed" value="false" />
+
+        <param name="planner_frequency" value="1.0" />
+        <param name="planner_patience" value="5.0" />
+        <param name="controller_frequency" value="1.0" />
+        <param name="controller_patience" value="15.0" />
+    </node>
+
+</launch>

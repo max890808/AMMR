@@ -1,0 +1,8 @@
+prefix=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel
+
+Name: airobots_ammr
+Description: Description of airobots_ammr
+Version: 0.0.0
+Cflags: -I/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

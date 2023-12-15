@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/control">
+    	<file>images/Backward.png</file>
+        <file>images/Back_Left.png</file>
+        <file>images/Back_Right.png</file>
+        <file>images/For_Left.png</file>
+        <file>images/For_Right.png</file>
+        <file>images/Forward.png</file>
+        <file>images/Self_Left.png</file>
+        <file>images/Self_Right.png</file>
+        <file>images/Stop.png</file>
+    </qresource>
+</RCC>

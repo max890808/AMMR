@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<launch>
+    <arg name="voc_path" default="$(find lv_slam)/vocabulary/ORBvoc.txt" />
+    <arg name="cfg_file" default="$(find airobots_ammr)ROS/cfg/Circular_AMR/Circular_AMR.yaml" />
+    <arg name="rviz_file" default="$(find airobots_ammr)/ROS/rviz/Circular_AMR.rviz" />
+
+    <node name="slam" pkg="lv_slam" type="SLAM_node" args="$(arg voc_path) $(arg cfg_file)" output="screen"></node>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rviz_file)">
+        <!-- If you want to access move_base with MoveBaseClient and using rviz, then use the topic below -->
+        <remap from="move_base_simple/goal" to="aiRobots_AMR/action_goal"/>
+
+        <!-- If you want to access move_base without MoveBaseClient, then use the topic below -->
+        <!-- <remap from="move_base_simple/goal" to="aiRobots_AMR/non_action_goal"/> -->
+    </node>
+</launch>
+
+

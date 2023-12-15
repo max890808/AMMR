@@ -1,0 +1,8 @@
+prefix=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel
+
+Name: laser_tools
+Description: Description of laser_tools
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

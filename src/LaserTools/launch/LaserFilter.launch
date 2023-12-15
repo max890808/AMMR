@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <node pkg="laser_tools" type="LaserFilter" name="laser_filter" output="screen">
+        <param name="/FromScanTopic" value="$(arg unfiltered_scan_topic)"/>
+        <param name="/FromImuTopic" value="$(arg quat_topic)"/>
+        <param name="/ToScanTopic" value="$(arg laser_topic)"/>
+        <param name="/ToScanFrame" value="$(arg laser_frame)"/>
+        <param name="/MinAngle" value="-2"/>
+        <param name="/MaxAngle" value="2"/>
+        <param name="/MaxRange" value="4"/>
+
+        <param name="/UseImuFilter" value="false"/>
+        <param name="/StablePitchRad" value="0.08"/>
+        <param name="/ToleratePitchRad" value="0.08"/>
+        <param name="/StableRollRad" value="0.004"/>
+        <param name="/TolerateRollRad" value="0.08"/>
+    </node>
+
+</launch>

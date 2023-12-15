@@ -1,0 +1,119 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# Camera Parameters. Adjust them!
+#--------------------------------------------------------------------------------------------
+
+# Camera calibration and distortion parameters (OpenCV) 
+Camera.fx: 610.7606201171875
+Camera.fy: 609.9207153320312
+Camera.cx: 324.8052673339844
+Camera.cy: 232.78622436523438
+
+Camera.k1: 0
+Camera.k2: 0
+Camera.p1: 0
+Camera.p2: 0
+Camera.k3: 0
+
+
+Camera.width: 640
+Camera.height: 480
+
+# Camera frames per second 
+Camera.fps: 10.0
+
+# IR projector baseline times fx (aprox.)
+Camera.bf: 26
+
+# Color order of the images (0: BGR, 1: RGB. It is ignored if images are grayscale)
+Camera.RGB: 1
+
+# Close/Far threshold. Baseline times.
+ThDepth: 40.0
+
+# Deptmap values factor
+DepthMapFactor: 1000
+
+#--------------------------------------------------------------------------------------------
+# LiDAR, Camera Parameters
+#--------------------------------------------------------------------------------------------
+Sensor.tCLtx: 0.0325
+Sensor.tCLty: 0
+Sensor.tCLtz: -0.1213
+Sensor.tCLqx: 0.5
+Sensor.tCLqy: -0.5
+Sensor.tCLqz: 0.5
+Sensor.tCLqw: 0.5
+
+Laser.MaxRange: 25
+
+#--------------------------------------------------------------------------------------------
+# ORB Parameters
+#--------------------------------------------------------------------------------------------
+
+# ORB Extractor: Number of features per image
+ORBextractor.nFeatures: 1000
+
+# ORB Extractor: Scale factor between levels in the scale pyramid 	
+ORBextractor.scaleFactor: 1.2
+
+# ORB Extractor: Number of levels in the scale pyramid	
+ORBextractor.nLevels: 8
+
+# ORB Extractor: Fast threshold
+# Image is divided in a grid. At each cell FAST are extracted imposing a minimum response.
+# Firstly we impose iniThFAST. If no corners are detected we impose a lower value minThFAST
+# You can lower these values if your images have low contrast			
+ORBextractor.iniThFAST: 20
+ORBextractor.minThFAST: 7
+
+#--------------------------------------------------------------------------------------------
+# Viewer Parameters
+#--------------------------------------------------------------------------------------------
+Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameLineWidth: 1
+Viewer.GraphLineWidth: 0.9
+Viewer.PointSize: 2
+Viewer.CameraSize: 0.08
+Viewer.CameraLineWidth: 3
+Viewer.ViewpointX: 0
+Viewer.ViewpointY: -0.7
+Viewer.ViewpointZ: -1.8
+Viewer.ViewpointF: 500
+
+#--------------------------------------------------------------------------------------------
+# ROS Parameters
+#--------------------------------------------------------------------------------------------
+ROS.LaserTopic: /slamware_ros_sdk_server_node/scan
+ROS.CameraTopic: /camera/color/image_raw
+ROS.DepthTopic: /camera/aligned_depth_to_color/image_raw
+
+#--------------------------------------------------------------------------------------------
+# SLAM Parameters
+#--------------------------------------------------------------------------------------------
+
+# Dataframe with ID less than this number will be saved as keyframe
+SLAM.InitialKeyframeNumber: 10
+
+# If enable loop closing.
+SLAM.EnableLoopClosing: 1
+
+# Number of keyframes involved in active keyframes. n*2+1
+SLAM.ActiveNumber: 10
+
+# Maximum vision weight when Tracking
+SLAM.WVision: 0.5
+
+#--------------------------------------------------------------------------------------------
+# Application Parameters
+#--------------------------------------------------------------------------------------------
+APP.ShowDataCount: 1
+APP.ShowProcesTime: 1
+APP.UpdateFrameCount: 1
+APP.LoadMap: 0
+APP.LocalizationMode: 0
+
+APP.Root: /home/aiRobots/aiRobots/aiRobots_AMMR/
+APP.InputMapName: cyy_map.cymap
+APP.OutputMapName: cyy_map.cymap
