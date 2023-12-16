@@ -443,4 +443,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "AMMR/Strategy/AMR_SLAMTEC/CMakeFiles/AMR_SLAMTEC.dir/DependInfo.cmake"
   "AMMR/Strategy/AMMR_Basic/CMakeFiles/AMMR_Basic.dir/DependInfo.cmake"
   "AMMR/Strategy/GPM/CMakeFiles/GPM.dir/DependInfo.cmake"
+  "AMMR/Strategy/Test/CMakeFiles/Test.dir/DependInfo.cmake"
   )

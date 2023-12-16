@@ -122,6 +122,7 @@ airobots_ammr_EXTERNAL_OBJECTS =
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libAMMR_Basic.so
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libAMR_SLAMTEC.so
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libGPM.so
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libTest.so
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libAMMR.so
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libAMR.so
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libManipulator.so
@@ -134,6 +135,10 @@ airobots_ammr_EXTERNAL_OBJECTS =
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /usr/lib/x86_64-linux-gnu/libpcre.so
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /usr/lib/x86_64-linux-gnu/libz.so
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libControlInterface.so
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /opt/ros/melodic/lib/libtf2_ros.so
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /opt/ros/melodic/lib/libactionlib.so
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /opt/ros/melodic/lib/libmessage_filters.so
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /opt/ros/melodic/lib/libtf2.so
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libMoveBaseClient.so
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libVisionInterface.so
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libImageGetter.so
@@ -196,10 +201,6 @@ airobots_ammr_EXTERNAL_OBJECTS =
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /usr/lib/x86_64-linux-gnu/libpython2.7.so
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /opt/ros/melodic/lib/libtf2_ros.so
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /opt/ros/melodic/lib/libactionlib.so
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /opt/ros/melodic/lib/libmessage_filters.so
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /opt/ros/melodic/lib/libtf2.so
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /opt/ros/melodic/lib/libroscpp.so
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr: /opt/ros/melodic/lib/librosconsole.so

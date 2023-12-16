@@ -464,6 +464,15 @@ Strategy_LIB_DEPENDS:STATIC=general;AMR_ArUco;general;AMR_Basic;general;AMMR_Bas
 //Value Computed by CMake
 Strategy_SOURCE_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Strategy
 
+//Value Computed by CMake
+Test_BINARY_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Strategy/Test
+
+//Dependencies for the target
+Test_LIB_DEPENDS:STATIC=general;AMMR;
+
+//Value Computed by CMake
+Test_SOURCE_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Strategy/Test
+
 //LSB Distrib tag
 UBUNTU:BOOL=TRUE
 

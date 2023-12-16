@@ -37,6 +37,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Strategy/AMMR_Basic/CMakeFiles/AMMR_Basic.dir/DependInfo.cmake"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Strategy/AMR_SLAMTEC/CMakeFiles/AMR_SLAMTEC.dir/DependInfo.cmake"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Strategy/GPM/CMakeFiles/GPM.dir/DependInfo.cmake"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Strategy/Test/CMakeFiles/Test.dir/DependInfo.cmake"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/CMakeFiles/AMMR.dir/DependInfo.cmake"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/AMR/CMakeFiles/AMR.dir/DependInfo.cmake"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/Manipulator/CMakeFiles/Manipulator.dir/DependInfo.cmake"

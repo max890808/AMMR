@@ -1441,6 +1441,19 @@ GPM/fast:
 	$(MAKE) -f AMMR/Strategy/GPM/CMakeFiles/GPM.dir/build.make AMMR/Strategy/GPM/CMakeFiles/GPM.dir/build
 .PHONY : GPM/fast
 
+#=============================================================================
+# Target rules for targets named Test
+
+# Build rule for target.
+Test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Test
+.PHONY : Test
+
+# fast build rule for target.
+Test/fast:
+	$(MAKE) -f AMMR/Strategy/Test/CMakeFiles/Test.dir/build.make AMMR/Strategy/Test/CMakeFiles/Test.dir/build
+.PHONY : Test/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1552,6 +1565,7 @@ help:
 	@echo "... AMR_SLAMTEC"
 	@echo "... AMMR_Basic"
 	@echo "... GPM"
+	@echo "... Test"
 .PHONY : help
 
 
