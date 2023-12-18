@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/airobots_ammr_generate_messages_cpp"
-  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/include/airobots_ammr/status.h"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/include/airobots_ammr/Job.h"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/include/airobots_ammr/Yolo.h"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/include/airobots_ammr/status.h"
+  "CMakeFiles/airobots_ammr_generate_messages_cpp"
 )
 
 # Per-language clean rules from dependency scanning.

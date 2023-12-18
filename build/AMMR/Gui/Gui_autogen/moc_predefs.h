@@ -73,6 +73,7 @@
 #define __FLT128_MANT_DIG__ 113
 #define __WCHAR_MIN__ (-__WCHAR_MAX__ - 1)
 #define __INT64_C(c) c ## L
+#define Gui_EXPORTS 1
 #define __DBL_DIG__ 15
 #define __GCC_ATOMIC_POINTER_LOCK_FREE 2
 #define __FLT64X_MANT_DIG__ 64

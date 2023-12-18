@@ -37,11 +37,13 @@ include_directories(${PROJECT_SOURCE_DIR} ${catkin_INCLUDE_DIRS})
 add_subdirectory(Gui)
 add_subdirectory(AMMR)
 add_subdirectory(Strategy)
+add_subdirectory(test)
 
 add_executable(${PROJECT_NAME} main.cpp)
+
 target_link_libraries(${PROJECT_NAME} 
   Gui 
   AMMR
-  Strategy 
+  Strategy
   ${catkin_LIBRARIES}
 )

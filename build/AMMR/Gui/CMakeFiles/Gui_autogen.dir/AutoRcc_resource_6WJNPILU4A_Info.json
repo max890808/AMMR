@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Gui/Gui_autogen",
+	"CMAKE_BINARY_DIR" : "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Gui",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui",
+	"CMAKE_SOURCE_DIR" : "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src",
+	"INCLUDE_DIR" : "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Gui/Gui_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/resource/images/Back_Right.png",
+		"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/resource/images/For_Right.png",
+		"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/resource/images/Self_Right.png",
+		"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/resource/images/Back_Left.png",
+		"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/resource/images/For_Left.png",
+		"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/resource/images/Forward.png",
+		"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/resource/images/Self_Left.png",
+		"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/resource/images/Stop.png",
+		"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/resource/images/Backward.png"
+	],
+	"LOCK_FILE" : "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Gui/CMakeFiles/Gui_autogen.dir/AutoRcc_resource_6WJNPILU4A_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resource" ],
+	"OUTPUT_CHECKSUM" : "6WJNPILU4A",
+	"OUTPUT_NAME" : "qrc_resource.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Gui/CMakeFiles/Gui_autogen.dir/AutoRcc_resource_6WJNPILU4A_Used.txt",
+	"SOURCE" : "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/resource/resource.qrc",
+	"VERBOSITY" : 0
+}

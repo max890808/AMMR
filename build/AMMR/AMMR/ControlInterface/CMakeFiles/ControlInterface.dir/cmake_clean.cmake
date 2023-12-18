@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ControlInterface.dir/ControlInterface.cpp.o"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libControlInterface.pdb"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libControlInterface.so"
+  "CMakeFiles/ControlInterface.dir/ControlInterface.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

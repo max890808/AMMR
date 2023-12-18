@@ -14,6 +14,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "ROSCONSOLE_BACKEND_LOG4CXX"
   "ROS_BUILD_SHARED_LIBS=1"
   "ROS_PACKAGE_NAME=\"airobots_ammr\""
+  "Strategy_EXPORTS"
   )
 
 # The include file search paths:
@@ -26,8 +27,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion"
   "/usr/include/eigen3"
-  "/usr/include/opencv"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Strategy/GPM"
+  "/usr/include/opencv"
   )
 
 # Targets to which this target links.

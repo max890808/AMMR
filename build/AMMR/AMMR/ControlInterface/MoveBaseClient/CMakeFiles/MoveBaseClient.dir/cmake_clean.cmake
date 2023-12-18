@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MoveBaseClient.dir/MoveBaseClient.cpp.o"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libMoveBaseClient.pdb"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libMoveBaseClient.so"
+  "CMakeFiles/MoveBaseClient.dir/MoveBaseClient.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

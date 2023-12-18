@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/airobots_ammr.dir/main.cpp.o"
-  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr.pdb"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/airobots_ammr/airobots_ammr.pdb"
+  "CMakeFiles/airobots_ammr.dir/main.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

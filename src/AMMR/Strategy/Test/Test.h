@@ -5,7 +5,7 @@ class Test
     public:
         Test(bool *pTerminate);
         ~Test();
-        void StartStrategy();
+        Eigen::Matrix<float, 4, 4> StartStrategy();
 
     private:
         AMMR *mpRobot;

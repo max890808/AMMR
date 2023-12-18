@@ -2,4 +2,4 @@
 source_root_dir = '/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src'
 whitelisted_packages = ''.split(';') if '' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel;/opt/ros/melodic'.split(';') if '/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel;/opt/ros/melodic' != '' else []
+underlay_workspaces = '/opt/ros/melodic'.split(';') if '/opt/ros/melodic' != '' else []

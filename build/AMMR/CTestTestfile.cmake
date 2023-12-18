@@ -7,3 +7,4 @@
 subdirs("Gui")
 subdirs("AMMR")
 subdirs("Strategy")
+subdirs("test")

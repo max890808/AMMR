@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LiDARInterface.dir/LiDARInterface.cpp.o"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libLiDARInterface.pdb"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libLiDARInterface.so"
+  "CMakeFiles/LiDARInterface.dir/LiDARInterface.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

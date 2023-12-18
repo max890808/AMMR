@@ -1,0 +1,141 @@
+{
+	"BUILD_DIR" : "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Gui/Gui_autogen",
+	"CMAKE_BINARY_DIR" : "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Gui",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui",
+	"CMAKE_EXECUTABLE" : "/usr/local/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src",
+	"HEADERS" : 
+	[
+		[
+			"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/include/Form_AMMR.h",
+			"MU",
+			"6YEA5652QU/moc_Form_AMMR.cpp"
+		],
+		[
+			"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/include/Form_AMR.h",
+			"MU",
+			"6YEA5652QU/moc_Form_AMR.cpp"
+		],
+		[
+			"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/include/Form_ControlPanel.h",
+			"MU",
+			"6YEA5652QU/moc_Form_ControlPanel.cpp"
+		],
+		[
+			"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/include/Form_Manipulator.h",
+			"MU",
+			"6YEA5652QU/moc_Form_Manipulator.cpp"
+		],
+		[
+			"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/include/Form_Strategy.h",
+			"MU",
+			"6YEA5652QU/moc_Form_Strategy.cpp"
+		],
+		[
+			"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/include/Form_VLSensor.h",
+			"MU",
+			"6YEA5652QU/moc_Form_VLSensor.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Gui/Gui_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Gui/Gui_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"Gui_EXPORTS",
+		"POCO_NO_AUTOMATIC_LIBS",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_WIDGETS_LIB",
+		"ROSCONSOLE_BACKEND_LOG4CXX",
+		"ROS_BUILD_SHARED_LIBS=1",
+		"ROS_PACKAGE_NAME=\"airobots_ammr\""
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/include",
+		"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR",
+		"/opt/ros/melodic/include",
+		"/opt/ros/melodic/include/xmlrpcpp",
+		"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Gui",
+		"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/include",
+		"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR",
+		"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion",
+		"/usr/include/eigen3",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/opencv",
+		"/usr/include",
+		"/usr/include/c++/7",
+		"/usr/include/x86_64-linux-gnu/c++/7",
+		"/usr/include/c++/7/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/local/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Gui/Gui_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Gui/CMakeFiles/Gui_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Gui/CMakeFiles/Gui_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/src/Form_AMMR.cpp",
+			"MU"
+		],
+		[
+			"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/src/Form_AMR.cpp",
+			"MU"
+		],
+		[
+			"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/src/Form_ControlPanel.cpp",
+			"MU"
+		],
+		[
+			"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/src/Form_Manipulator.cpp",
+			"MU"
+		],
+		[
+			"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/src/Form_Strategy.cpp",
+			"MU"
+		],
+		[
+			"/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/src/Form_VLSensor.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [ "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/ui" ],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

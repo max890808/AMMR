@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libDynamixelSdk.pdb"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libDynamixelSdk.so"
   "CMakeFiles/DynamixelSdk.dir/dynamixel_sdk/group_bulk_read.cpp.o"
   "CMakeFiles/DynamixelSdk.dir/dynamixel_sdk/group_bulk_write.cpp.o"
   "CMakeFiles/DynamixelSdk.dir/dynamixel_sdk/group_sync_read.cpp.o"
@@ -8,8 +10,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/DynamixelSdk.dir/dynamixel_sdk/port_handler_linux.cpp.o"
   "CMakeFiles/DynamixelSdk.dir/dynamixel_sdk/protocol1_packet_handler.cpp.o"
   "CMakeFiles/DynamixelSdk.dir/dynamixel_sdk/protocol2_packet_handler.cpp.o"
-  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libDynamixelSdk.pdb"
-  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libDynamixelSdk.so"
 )
 
 # Per-language clean rules from dependency scanning.

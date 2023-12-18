@@ -8,7 +8,7 @@
 
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/AMR/AMR.h
 MotorUnion/MotorUnion.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/AMR/MotorUnion/MotorUnion.h
+-
 
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/ControlInterface/ControlInterface.cpp
 ControlInterface.h
@@ -52,89 +52,89 @@ ros/ros.h
 thread
 -
 
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/./motor/motor.h
-cmath
--
-
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/Dmotor.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/Dmotor.h
 dynamixel/DynamixelSDK.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/DynamixelSDK.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/DynamixelSDK.h
 ./motor/motor.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/./motor/motor.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/motor/motor.h
 iostream
 -
 
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/DmotorMx.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/DmotorMx.h
 Dmotor.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/Dmotor.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/Dmotor.h
 
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/DmotorPro.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/DmotorPro.h
 Dmotor.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/Dmotor.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/Dmotor.h
 
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/DmotorProPlus.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/DmotorProPlus.h
 Dmotor.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/Dmotor.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/Dmotor.h
 
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/DmotorXm.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/DmotorXm.h
 Dmotor.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/Dmotor.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/Dmotor.h
 
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/dynamixel_sdk.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/DynamixelSDK.h
+./dynamixel_sdk/dynamixel_sdk.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/dynamixel_sdk.h
+
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/dynamixel_sdk.h
 group_bulk_read.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/group_bulk_read.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/group_bulk_read.h
 group_bulk_write.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/group_bulk_write.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/group_bulk_write.h
 group_sync_read.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/group_sync_read.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/group_sync_read.h
 group_sync_write.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/group_sync_write.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/group_sync_write.h
 packet_handler.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/packet_handler.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/packet_handler.h
 port_handler.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/port_handler.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/port_handler.h
 
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/group_bulk_read.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/group_bulk_read.h
 map
 -
 vector
 -
 port_handler.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/port_handler.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/port_handler.h
 packet_handler.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/packet_handler.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/packet_handler.h
 
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/group_bulk_write.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/group_bulk_write.h
 map
 -
 vector
 -
 port_handler.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/port_handler.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/port_handler.h
 packet_handler.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/packet_handler.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/packet_handler.h
 
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/group_sync_read.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/group_sync_read.h
 map
 -
 vector
 -
 port_handler.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/port_handler.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/port_handler.h
 packet_handler.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/packet_handler.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/packet_handler.h
 
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/group_sync_write.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/group_sync_write.h
 map
 -
 vector
 -
 port_handler.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/port_handler.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/port_handler.h
 packet_handler.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/packet_handler.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/packet_handler.h
 
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/packet_handler.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/packet_handler.h
 Arduino.h
 -
 stdio.h
@@ -142,25 +142,25 @@ stdio.h
 vector
 -
 port_handler.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/port_handler.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/port_handler.h
 
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/port_handler.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/port_handler.h
 stdint.h
 -
 
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/DynamixelSDK.h
-./dynamixel_sdk/dynamixel_sdk.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/dynamixel/./dynamixel_sdk/dynamixel_sdk.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/motor/motor.h
+cmath
+-
 
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/MotorUnion.h
 ./Motor/DmotorMx.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/DmotorMx.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/DmotorMx.h
 ./Motor/DmotorPro.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/DmotorPro.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/DmotorPro.h
 ./Motor/DmotorProPlus.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/DmotorProPlus.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/DmotorProPlus.h
 ./Motor/DmotorXm.h
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/./Motor/DmotorXm.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/DmotorXm.h
 vector
 -
 thread

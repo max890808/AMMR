@@ -100,6 +100,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Gui/cmake_install.cmake")
   include("/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/cmake_install.cmake")
   include("/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Strategy/cmake_install.cmake")
+  include("/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/test/cmake_install.cmake")
 
 endif()
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ImageGetter.dir/ImageGetter.cpp.o"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libImageGetter.pdb"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libImageGetter.so"
+  "CMakeFiles/ImageGetter.dir/ImageGetter.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -27,16 +27,16 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "AMMR/Gui"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/include"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion"
+  "/usr/include/eigen3"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Strategy/GPM"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
   "/usr/include/opencv"
-  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR"
-  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion"
-  "/usr/include/eigen3"
-  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Strategy/GPM"
   )
 
 # Targets to which this target links.

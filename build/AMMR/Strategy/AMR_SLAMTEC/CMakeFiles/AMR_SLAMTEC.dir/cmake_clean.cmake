@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/AMR_SLAMTEC.dir/AMR_SLAMTEC.cpp.o"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libAMR_SLAMTEC.pdb"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/libAMR_SLAMTEC.so"
+  "CMakeFiles/AMR_SLAMTEC.dir/AMR_SLAMTEC.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.
