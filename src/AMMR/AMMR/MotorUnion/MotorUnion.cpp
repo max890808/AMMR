@@ -464,3 +464,11 @@ void MotorUnion::ReadData() const
 	for (int i = 0; i < groupBulkRead.size(); i++)
 		groupBulkRead.at(i)->clearParam();
 }
+
+void MotorUnion::Start(){
+	SetAllMotorsTorqueEnable(true);
+}
+
+void MotorUnion::Stop(){
+	SetAllMotorsTorqueEnable(false);
+}

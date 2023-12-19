@@ -10,6 +10,7 @@
 export CMAKE_PREFIX_PATH="/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib:$LD_LIBRARY_PATH"
 export PKG_CONFIG_PATH="/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build'
 export PYTHONPATH="/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES='/home/aiRobots/aiRobots/aiRobots_AMMR/Software/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src:$ROS_PACKAGE_PATH"

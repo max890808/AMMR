@@ -409,6 +409,15 @@ Manipulator_LIB_DEPENDS:STATIC=general;MotorUnion;general;Poco::Net;general;Poco
 Manipulator_SOURCE_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/Manipulator
 
 //Value Computed by CMake
+MotorBase_BINARY_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/MotorBase
+
+//Dependencies for the target
+MotorBase_LIB_DEPENDS:STATIC=general;MotorUnion;
+
+//Value Computed by CMake
+MotorBase_SOURCE_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorBase
+
+//Value Computed by CMake
 MotorUnion_BINARY_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/MotorUnion
 
 //Dependencies for the target

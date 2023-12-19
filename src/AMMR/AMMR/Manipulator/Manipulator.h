@@ -13,7 +13,7 @@
 #include <math.h>
 #include <thread>
 
-class Manipulator : public MotorUnion
+class Manipulator :  public MotorUnion
 {
 public:
     /* Constructor */
@@ -21,8 +21,8 @@ public:
     Manipulator();
     ~Manipulator() { inst_ = nullptr; };
 
-    void Start();
-    void Stop();
+    void Start() override;
+    void Stop() override;
     /* CORE function */
     void CalculateJacobianMatrix(void);
     void TrajectoryPlanning(const float &ox, const float &oy, const float &oz, const float &px, const float &py, const float &pz);

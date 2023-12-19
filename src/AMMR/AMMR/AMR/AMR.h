@@ -38,7 +38,7 @@ enum class eAMMRType{
  * @brief The class for differential drive robot, including aiRobots-AMR and aiRobots-AMMR
  * 
  */
-class AMR : public MotorUnion
+class AMR :  public MotorUnion
 {
 public:
 
@@ -59,8 +59,8 @@ public:
     void Put(const int &velocity);
 
     // Start/Stop
-    void Start();
-    void Stop();
+    void Start() override;
+    void Stop() override;
 
     const unsigned char conveyor_R;
 	const unsigned char conveyor;

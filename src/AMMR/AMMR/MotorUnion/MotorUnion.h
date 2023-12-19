@@ -19,6 +19,12 @@ public:
 			   const vector<string> &MotorModelArray);
 	virtual ~MotorUnion();
 	void WaitMotorArrival(int i) const;
+
+
+	/////////////add new code//////////
+	virtual void Start();
+	virtual void Stop();
+	///////////////////////////////////
 private:
 	template <class T>
 	void deleteInVector(vector<T *>);

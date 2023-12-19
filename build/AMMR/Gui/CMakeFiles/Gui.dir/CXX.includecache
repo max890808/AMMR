@@ -6,8 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Gui/Gui_autogen/6WJNPILU4A/qrc_resource.cpp
-
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Gui/Gui_autogen/6YEA5652QU/moc_Form_AMMR.cpp
 Gui/include/Form_AMMR.h
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Gui/Gui_autogen/6YEA5652QU/Gui/include/Form_AMMR.h
@@ -404,12 +402,6 @@ ui_Form_ControlPanel.h
 Form_Manipulator.h
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/src/Form_Manipulator.h
 ui_Form_AMMR.h
--
-
-/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/src/Form_Strategy.cpp
-Form_Strategy.h
--
-ui_Form_Strategy.h
 -
 
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Gui/src/Form_VLSensor.cpp
@@ -4104,10 +4096,6 @@ qapplication.h
 qbuttongroup.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qbuttongroup.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox
-qcombobox.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
 qdialog.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
@@ -4147,10 +4135,6 @@ qlabel.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
 qlineedit.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QListWidget
-qlistwidget.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistwidget.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
 qmainwindow.h
@@ -4302,20 +4286,6 @@ QtWidgets/qtwidgetsglobal.h
 QtCore/qobject.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qwidget.h
--
-QtWidgets/qabstractitemdelegate.h
--
-QtCore/qabstractitemmodel.h
--
-QtCore/qvariant.h
--
-QtGui/qvalidator.h
--
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -4450,24 +4420,6 @@ QtGui/qtextcursor.h
 QtCore/qstring.h
 -
 QtCore/qmargins.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistview.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qabstractitemview.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistwidget.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qlistview.h
--
-QtCore/qvariant.h
--
-QtCore/qvector.h
--
-QtCore/qitemselectionmodel.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
@@ -4738,27 +4690,5 @@ QtWidgets/QToolBar
 QtWidgets/QVBoxLayout
 -
 QtWidgets/QWidget
--
-
-AMMR/Gui/Gui_autogen/include/ui_Form_Strategy.h
-QtCore/QVariant
--
-QtWidgets/QAction
--
-QtWidgets/QApplication
--
-QtWidgets/QButtonGroup
--
-QtWidgets/QComboBox
--
-QtWidgets/QDialog
--
-QtWidgets/QHeaderView
--
-QtWidgets/QLabel
--
-QtWidgets/QListWidget
--
-QtWidgets/QPushButton
 -
 
