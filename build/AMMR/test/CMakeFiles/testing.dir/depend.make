@@ -23,6 +23,8 @@ AMMR/test/CMakeFiles/testing.dir/testing.cpp.o: /home/aiRobots/aiRobots/aiRobots
 AMMR/test/CMakeFiles/testing.dir/testing.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/port_handler.h
 AMMR/test/CMakeFiles/testing.dir/testing.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/motor/motor.h
 AMMR/test/CMakeFiles/testing.dir/testing.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/MotorUnion.h
+AMMR/test/CMakeFiles/testing.dir/testing.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategy/RobotStrategy.h
+AMMR/test/CMakeFiles/testing.dir/testing.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategySelect.h
 AMMR/test/CMakeFiles/testing.dir/testing.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/ArUcoProcessing/ArUcoProcessing.h
 AMMR/test/CMakeFiles/testing.dir/testing.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/ImageGetter/ImageGetter.h
 AMMR/test/CMakeFiles/testing.dir/testing.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/VisionInterface.h

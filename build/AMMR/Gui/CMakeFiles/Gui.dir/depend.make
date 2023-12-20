@@ -32,6 +32,8 @@ AMMR/Gui/CMakeFiles/Gui.dir/Gui_autogen/mocs_compilation.cpp.o: /home/aiRobots/a
 AMMR/Gui/CMakeFiles/Gui.dir/Gui_autogen/mocs_compilation.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/port_handler.h
 AMMR/Gui/CMakeFiles/Gui.dir/Gui_autogen/mocs_compilation.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/motor/motor.h
 AMMR/Gui/CMakeFiles/Gui.dir/Gui_autogen/mocs_compilation.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/MotorUnion.h
+AMMR/Gui/CMakeFiles/Gui.dir/Gui_autogen/mocs_compilation.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategy/RobotStrategy.h
+AMMR/Gui/CMakeFiles/Gui.dir/Gui_autogen/mocs_compilation.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategySelect.h
 AMMR/Gui/CMakeFiles/Gui.dir/Gui_autogen/mocs_compilation.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/ArUcoProcessing/ArUcoProcessing.h
 AMMR/Gui/CMakeFiles/Gui.dir/Gui_autogen/mocs_compilation.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/ImageGetter/ImageGetter.h
 AMMR/Gui/CMakeFiles/Gui.dir/Gui_autogen/mocs_compilation.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/VisionInterface.h
@@ -499,6 +501,8 @@ AMMR/Gui/CMakeFiles/Gui.dir/src/Form_AMMR.cpp.o: /home/aiRobots/aiRobots/aiRobot
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_AMMR.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/port_handler.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_AMMR.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/motor/motor.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_AMMR.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/MotorUnion.h
+AMMR/Gui/CMakeFiles/Gui.dir/src/Form_AMMR.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategy/RobotStrategy.h
+AMMR/Gui/CMakeFiles/Gui.dir/src/Form_AMMR.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategySelect.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_AMMR.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/ArUcoProcessing/ArUcoProcessing.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_AMMR.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/ImageGetter/ImageGetter.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_AMMR.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/VisionInterface.h
@@ -1027,6 +1031,8 @@ AMMR/Gui/CMakeFiles/Gui.dir/src/Form_AMR.cpp.o: /home/aiRobots/aiRobots/aiRobots
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_AMR.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/port_handler.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_AMR.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/motor/motor.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_AMR.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/MotorUnion.h
+AMMR/Gui/CMakeFiles/Gui.dir/src/Form_AMR.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategy/RobotStrategy.h
+AMMR/Gui/CMakeFiles/Gui.dir/src/Form_AMR.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategySelect.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_AMR.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/ArUcoProcessing/ArUcoProcessing.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_AMR.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/ImageGetter/ImageGetter.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_AMR.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/VisionInterface.h
@@ -1543,6 +1549,8 @@ AMMR/Gui/CMakeFiles/Gui.dir/src/Form_ControlPanel.cpp.o: /home/aiRobots/aiRobots
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_ControlPanel.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/port_handler.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_ControlPanel.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/motor/motor.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_ControlPanel.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/MotorUnion.h
+AMMR/Gui/CMakeFiles/Gui.dir/src/Form_ControlPanel.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategy/RobotStrategy.h
+AMMR/Gui/CMakeFiles/Gui.dir/src/Form_ControlPanel.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategySelect.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_ControlPanel.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/ArUcoProcessing/ArUcoProcessing.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_ControlPanel.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/ImageGetter/ImageGetter.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_ControlPanel.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/VisionInterface.h
@@ -2057,6 +2065,8 @@ AMMR/Gui/CMakeFiles/Gui.dir/src/Form_Manipulator.cpp.o: /home/aiRobots/aiRobots/
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_Manipulator.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/port_handler.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_Manipulator.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/motor/motor.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_Manipulator.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/MotorUnion.h
+AMMR/Gui/CMakeFiles/Gui.dir/src/Form_Manipulator.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategy/RobotStrategy.h
+AMMR/Gui/CMakeFiles/Gui.dir/src/Form_Manipulator.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategySelect.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_Manipulator.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/ArUcoProcessing/ArUcoProcessing.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_Manipulator.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/ImageGetter/ImageGetter.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_Manipulator.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/VisionInterface.h
@@ -2721,6 +2731,8 @@ AMMR/Gui/CMakeFiles/Gui.dir/src/Form_VLSensor.cpp.o: /home/aiRobots/aiRobots/aiR
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_VLSensor.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/port_handler.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_VLSensor.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/motor/motor.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_VLSensor.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/MotorUnion.h
+AMMR/Gui/CMakeFiles/Gui.dir/src/Form_VLSensor.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategy/RobotStrategy.h
+AMMR/Gui/CMakeFiles/Gui.dir/src/Form_VLSensor.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategySelect.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_VLSensor.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/ArUcoProcessing/ArUcoProcessing.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_VLSensor.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/ImageGetter/ImageGetter.h
 AMMR/Gui/CMakeFiles/Gui.dir/src/Form_VLSensor.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/VisionInterface.h

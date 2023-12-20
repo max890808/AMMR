@@ -29,6 +29,8 @@ AMMR/Strategy/GPM/CMakeFiles/GPM.dir/Targetpicking.cpp.o: /home/aiRobots/aiRobot
 AMMR/Strategy/GPM/CMakeFiles/GPM.dir/Targetpicking.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/dynamixel/dynamixel_sdk/port_handler.h
 AMMR/Strategy/GPM/CMakeFiles/GPM.dir/Targetpicking.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/Motor/motor/motor.h
 AMMR/Strategy/GPM/CMakeFiles/GPM.dir/Targetpicking.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion/MotorUnion.h
+AMMR/Strategy/GPM/CMakeFiles/GPM.dir/Targetpicking.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategy/RobotStrategy.h
+AMMR/Strategy/GPM/CMakeFiles/GPM.dir/Targetpicking.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategySelect.h
 AMMR/Strategy/GPM/CMakeFiles/GPM.dir/Targetpicking.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/ArUcoProcessing/ArUcoProcessing.h
 AMMR/Strategy/GPM/CMakeFiles/GPM.dir/Targetpicking.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/ImageGetter/ImageGetter.h
 AMMR/Strategy/GPM/CMakeFiles/GPM.dir/Targetpicking.cpp.o: /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/VisionInterface.h

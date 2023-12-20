@@ -97,6 +97,8 @@ VisionInterface/VisionInterface.h
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/VisionInterface.h
 LiDARInterface/LiDARInterface.h
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/LiDARInterface/LiDARInterface.h
+RobotStrategySelect/RobotStrategySelect.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategySelect.h
 
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/AMR/AMR.h
 MotorUnion/MotorUnion.h
@@ -289,6 +291,18 @@ thread
 -
 chrono
 -
+
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategy/RobotStrategy.h
+ControlInterface/ControlInterface.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategy/ControlInterface/ControlInterface.h
+Manipulator/Manipulator.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategy/Manipulator/Manipulator.h
+AMR/AMR.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategy/AMR/AMR.h
+
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategySelect.h
+RobotStrategy/RobotStrategy.h
+/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategy/RobotStrategy.h
 
 /home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/VisionInterface/ArUcoProcessing/ArUcoProcessing.h
 opencv2/aruco.hpp

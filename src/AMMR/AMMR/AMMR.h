@@ -12,6 +12,7 @@
 #include "ControlInterface/ControlInterface.h"
 #include "VisionInterface/VisionInterface.h"
 #include "LiDARInterface/LiDARInterface.h"
+#include "RobotStrategySelect/RobotStrategySelect.h"
 
 // /**
 //  * @brief AMMR Type

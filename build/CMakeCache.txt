@@ -15,6 +15,24 @@
 ########################
 
 //Value Computed by CMake
+AGVRobotStrategy_BINARY_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/RobotStrategySelect/AGVRobotStrategy
+
+//Dependencies for the target
+AGVRobotStrategy_LIB_DEPENDS:STATIC=general;RobotStrategy;
+
+//Value Computed by CMake
+AGVRobotStrategy_SOURCE_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/AGVRobotStrategy
+
+//Value Computed by CMake
+AMMRRobotStrategy_BINARY_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/RobotStrategySelect/AMMRRobotStrategy
+
+//Dependencies for the target
+AMMRRobotStrategy_LIB_DEPENDS:STATIC=general;RobotStrategy;
+
+//Value Computed by CMake
+AMMRRobotStrategy_SOURCE_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/AMMRRobotStrategy
+
+//Value Computed by CMake
 AMMR_BINARY_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR
 
 //Value Computed by CMake
@@ -27,10 +45,19 @@ AMMR_Basic_LIB_DEPENDS:STATIC=general;AMMR;
 AMMR_Basic_SOURCE_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/Strategy/AMMR_Basic
 
 //Dependencies for the target
-AMMR_LIB_DEPENDS:STATIC=general;AMR;general;Manipulator;general;ControlInterface;general;VisionInterface;general;LiDARInterface;
+AMMR_LIB_DEPENDS:STATIC=general;AMR;general;Manipulator;general;ControlInterface;general;VisionInterface;general;LiDARInterface;general;RobotStrategySelect;
 
 //Value Computed by CMake
 AMMR_SOURCE_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR
+
+//Value Computed by CMake
+AMRRobotStrategy_BINARY_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/RobotStrategySelect/AMRRobotStrategy
+
+//Dependencies for the target
+AMRRobotStrategy_LIB_DEPENDS:STATIC=general;RobotStrategy;
+
+//Value Computed by CMake
+AMRRobotStrategy_SOURCE_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/AMRRobotStrategy
 
 //Value Computed by CMake
 AMR_ArUco_BINARY_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Strategy/AMR_ArUco
@@ -480,6 +507,24 @@ Qt5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5
 //Path to a library.
 RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
 
+//Value Computed by CMake
+RobotStrategySelect_BINARY_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/RobotStrategySelect
+
+//Dependencies for the target
+RobotStrategySelect_LIB_DEPENDS:STATIC=general;AGVRobotStrategy;general;AMMRRobotStrategy;general;AMRRobotStrategy;general;RobotStrategy;
+
+//Value Computed by CMake
+RobotStrategySelect_SOURCE_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect
+
+//Value Computed by CMake
+RobotStrategy_BINARY_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/RobotStrategySelect/RobotStrategy
+
+//Dependencies for the target
+RobotStrategy_LIB_DEPENDS:STATIC=general;AMR;general;Manipulator;general;ControlInterface;
+
+//Value Computed by CMake
+RobotStrategy_SOURCE_DIR:STATIC=/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategy
+
 //Enable debian style python package layout
 SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 
@@ -840,7 +885,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=29
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=34
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

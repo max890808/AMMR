@@ -1367,6 +1367,71 @@ Manipulator/fast:
 .PHONY : Manipulator/fast
 
 #=============================================================================
+# Target rules for targets named RobotStrategySelect
+
+# Build rule for target.
+RobotStrategySelect: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RobotStrategySelect
+.PHONY : RobotStrategySelect
+
+# fast build rule for target.
+RobotStrategySelect/fast:
+	$(MAKE) $(MAKESILENT) -f AMMR/AMMR/RobotStrategySelect/CMakeFiles/RobotStrategySelect.dir/build.make AMMR/AMMR/RobotStrategySelect/CMakeFiles/RobotStrategySelect.dir/build
+.PHONY : RobotStrategySelect/fast
+
+#=============================================================================
+# Target rules for targets named AMRRobotStrategy
+
+# Build rule for target.
+AMRRobotStrategy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AMRRobotStrategy
+.PHONY : AMRRobotStrategy
+
+# fast build rule for target.
+AMRRobotStrategy/fast:
+	$(MAKE) $(MAKESILENT) -f AMMR/AMMR/RobotStrategySelect/AMRRobotStrategy/CMakeFiles/AMRRobotStrategy.dir/build.make AMMR/AMMR/RobotStrategySelect/AMRRobotStrategy/CMakeFiles/AMRRobotStrategy.dir/build
+.PHONY : AMRRobotStrategy/fast
+
+#=============================================================================
+# Target rules for targets named AMMRRobotStrategy
+
+# Build rule for target.
+AMMRRobotStrategy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AMMRRobotStrategy
+.PHONY : AMMRRobotStrategy
+
+# fast build rule for target.
+AMMRRobotStrategy/fast:
+	$(MAKE) $(MAKESILENT) -f AMMR/AMMR/RobotStrategySelect/AMMRRobotStrategy/CMakeFiles/AMMRRobotStrategy.dir/build.make AMMR/AMMR/RobotStrategySelect/AMMRRobotStrategy/CMakeFiles/AMMRRobotStrategy.dir/build
+.PHONY : AMMRRobotStrategy/fast
+
+#=============================================================================
+# Target rules for targets named AGVRobotStrategy
+
+# Build rule for target.
+AGVRobotStrategy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AGVRobotStrategy
+.PHONY : AGVRobotStrategy
+
+# fast build rule for target.
+AGVRobotStrategy/fast:
+	$(MAKE) $(MAKESILENT) -f AMMR/AMMR/RobotStrategySelect/AGVRobotStrategy/CMakeFiles/AGVRobotStrategy.dir/build.make AMMR/AMMR/RobotStrategySelect/AGVRobotStrategy/CMakeFiles/AGVRobotStrategy.dir/build
+.PHONY : AGVRobotStrategy/fast
+
+#=============================================================================
+# Target rules for targets named RobotStrategy
+
+# Build rule for target.
+RobotStrategy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RobotStrategy
+.PHONY : RobotStrategy
+
+# fast build rule for target.
+RobotStrategy/fast:
+	$(MAKE) $(MAKESILENT) -f AMMR/AMMR/RobotStrategySelect/RobotStrategy/CMakeFiles/RobotStrategy.dir/build.make AMMR/AMMR/RobotStrategySelect/RobotStrategy/CMakeFiles/RobotStrategy.dir/build
+.PHONY : RobotStrategy/fast
+
+#=============================================================================
 # Target rules for targets named Strategy
 
 # Build rule for target.
@@ -1666,6 +1731,11 @@ help:
 	@echo "... LiDARGetter"
 	@echo "... AMR"
 	@echo "... Manipulator"
+	@echo "... RobotStrategySelect"
+	@echo "... AMRRobotStrategy"
+	@echo "... AMMRRobotStrategy"
+	@echo "... AGVRobotStrategy"
+	@echo "... RobotStrategy"
 	@echo "... Strategy"
 	@echo "... AMR_ArUco"
 	@echo "... AMR_Basic"

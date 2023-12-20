@@ -27,6 +27,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/MotorUnion"
   "/usr/include/eigen3"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/AGVRobotStrategy"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/RobotStrategy"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/AMMRRobotStrategy"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/src/AMMR/AMMR/RobotStrategySelect/AMRRobotStrategy"
   "/usr/include/opencv"
   )
 
@@ -35,6 +40,16 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/Strategy/Test/CMakeFiles/Test.dir/DependInfo.cmake"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/CMakeFiles/AMMR.dir/DependInfo.cmake"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/VisionInterface/CMakeFiles/VisionInterface.dir/DependInfo.cmake"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/VisionInterface/ImageGetter/CMakeFiles/ImageGetter.dir/DependInfo.cmake"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/VisionInterface/ArUcoProcessing/CMakeFiles/ArUcoProcessing.dir/DependInfo.cmake"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/LiDARInterface/CMakeFiles/LiDARInterface.dir/DependInfo.cmake"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/LiDARInterface/LiDARGetter/CMakeFiles/LiDARGetter.dir/DependInfo.cmake"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/RobotStrategySelect/CMakeFiles/RobotStrategySelect.dir/DependInfo.cmake"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/RobotStrategySelect/AGVRobotStrategy/CMakeFiles/AGVRobotStrategy.dir/DependInfo.cmake"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/RobotStrategySelect/AMMRRobotStrategy/CMakeFiles/AMMRRobotStrategy.dir/DependInfo.cmake"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/RobotStrategySelect/AMRRobotStrategy/CMakeFiles/AMRRobotStrategy.dir/DependInfo.cmake"
+  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/RobotStrategySelect/RobotStrategy/CMakeFiles/RobotStrategy.dir/DependInfo.cmake"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/AMR/CMakeFiles/AMR.dir/DependInfo.cmake"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/Manipulator/CMakeFiles/Manipulator.dir/DependInfo.cmake"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/MotorUnion/CMakeFiles/MotorUnion.dir/DependInfo.cmake"
@@ -43,11 +58,6 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/MotorUnion/Motor/motor/CMakeFiles/motor.dir/DependInfo.cmake"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/ControlInterface/CMakeFiles/ControlInterface.dir/DependInfo.cmake"
   "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/ControlInterface/MoveBaseClient/CMakeFiles/MoveBaseClient.dir/DependInfo.cmake"
-  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/VisionInterface/CMakeFiles/VisionInterface.dir/DependInfo.cmake"
-  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/VisionInterface/ImageGetter/CMakeFiles/ImageGetter.dir/DependInfo.cmake"
-  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/VisionInterface/ArUcoProcessing/CMakeFiles/ArUcoProcessing.dir/DependInfo.cmake"
-  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/LiDARInterface/CMakeFiles/LiDARInterface.dir/DependInfo.cmake"
-  "/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/LiDARInterface/LiDARGetter/CMakeFiles/LiDARGetter.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

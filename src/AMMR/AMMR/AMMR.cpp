@@ -63,7 +63,7 @@ AMMR::AMMR(eAMMRType nAMMRType) : mnAMMRType(nAMMRType)
     mpLiDARInterface2 = new LiDARInterface();
     mpControlInterface = new ControlInterface();
 
-    switch(mnAMMRType)
+    /*switch(mnAMMRType)
     {
         case eAMMRType::Type_AMMR:
         {
@@ -92,7 +92,10 @@ AMMR::AMMR(eAMMRType nAMMRType) : mnAMMRType(nAMMRType)
             mpManipulator = nullptr;
             break;
         }
-    }
+    }*/
+
+    RobotStrategySelect strategySelect(mnAMMRType);
+    strategySelect.configureRobot(mpAMR, mpControlInterface, mpManipulator);
 
     StartROSLoop();
 

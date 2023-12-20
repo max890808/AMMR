@@ -45,6 +45,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/LiDARInterface/cmake_install.cmake")
   include("/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/AMR/cmake_install.cmake")
   include("/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/Manipulator/cmake_install.cmake")
+  include("/home/aiRobots/aiRobots/aiRobots_AMMR/Software/build/AMMR/AMMR/RobotStrategySelect/cmake_install.cmake")
 
 endif()
 
