@@ -5,9 +5,11 @@ class Test
     public:
         Test(bool *pTerminate);
         ~Test();
-        Eigen::Matrix<float, 4, 4> StartStrategy();
+        Eigen::Matrix<float, 4, 4> StartStrategy1();
+        bool StartStrategy2();
+        bool StartStrategy3();
 
     private:
-        AMMR *mpRobot;
         bool *mpbTerminate;
+        AMMR *mpRobot;
 };

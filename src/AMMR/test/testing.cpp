@@ -7,7 +7,17 @@ Eigen::Matrix<float, 4, 4> transform_matrix_test;
 
 TEST(TestSuite, testCase1) {
   // ASSERT_*;
-  ASSERT_EQ(transform_matrix_test, test->StartStrategy()); 
+  ASSERT_EQ(transform_matrix_test, test->StartStrategy1());
+}
+
+TEST(TestSuite, testCase2) {
+  // ASSERT_*;
+  ASSERT_EQ(0, test->StartStrategy2()); 
+}
+
+TEST(TestSuite, testCase3) {
+  // ASSERT_*;
+  ASSERT_EQ(0, test->StartStrategy3()); 
 }
 
 int main(int argc, char **argv) {
